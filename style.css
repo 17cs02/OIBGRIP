@@ -1,0 +1,177 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+.container{
+	width: 100%;
+	height: 1500px;
+
+}
+.mainDiv{
+	width: 1024px;
+	height: 60px;
+	background-color: #777;
+	margin: auto;
+}
+.logo{
+	width:300px;
+	height: 60px;
+	float: left;
+}
+.logo h1{
+	text-align: center;
+	line-height: 60px;
+	color: #fff;
+}
+nav ul{
+	float: right;
+	list-style: none;
+}
+nav li{
+	display: block;
+	width: 100px;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+}
+nav li a{
+	text-decoration: none;
+	color: #fff;
+}
+.clear{
+	clear: both;
+}
+.headerImg{
+height: 300px;
+width: 100%;
+background-color: greenyellow;
+}
+.headerImg h1{
+	text-align: center;
+	line-height: 300px;
+	color: #fff;
+}
+.slider{
+	width: 100%;
+	height: 50px;
+	background-color: rgb(218, 213, 213);
+}
+.slider p{
+	text-align: center;
+	line-height: 50px;
+}
+.content{
+	width: 1024px;
+	height:300px;
+	box-sizing: border-box;
+	display: block;
+}
+.content .box{
+box-sizing: border-box;
+width: 240px;
+height: 250px;
+padding: 20px;
+margin:25px 0px 0px 10px;
+display: inline-block;
+}
+.box h2{
+	text-align: center;
+	margin-top: 55px;
+	margin-bottom: 10px;
+}
+.box p{
+	text-align: center;
+}
+.litSec{
+
+	border: 1px solid #fff;
+	box-sizing: border-box;
+	padding: 20px;
+	width: 1024px;
+	height: 200px;
+}
+.litSec h2{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.litSec p{
+	text-align: center;
+}
+.bot{
+	height: 200px;
+	width: 1024px;
+	margin-top: 20px;
+}
+.bot h3{
+	text-align: center;
+	margin-top: 10px;
+}
+.bot .small{
+	width: 220px;
+	height: 140px;
+	margin-left: 10px;
+	margin-top: 10px;
+	display: inline-block;
+}
+.bot .a{
+	margin-left: 50px;
+	background-color: #9FBC2E;
+}
+.small h3{
+	line-height: 140px;
+	color: #fff;
+}
+.b{
+	background-color: #F5BC3B;
+}
+.c{
+	background-color: #ED5758;
+}
+.d{
+	background-color: #5EB1CF;
+}
+.lastDiv{
+	box-sizing: border-box;
+	width: 1024px;
+	height: 200px;
+	/* background-color: rgb(219, 231, 231); */
+	border: 1px solid #fff;
+	padding: 20px;
+}
+.lastDiv h2{
+	text-align: center;
+	margin-top: 30px; 
+	margin-bottom: 10px;
+}
+.lastDiv p{
+	text-align: center;
+	padding: 0px 20px 0px 20px;
+}
+footer{
+
+	width: 1024px;
+	height: 100px;
+	margin-top: 50px;
+	box-sizing: border-box;
+	/* border-bottom: 1px solid grey; */
+	border-top: 1px solid grey;
+
+}
+.ftrLeft{
+	width: 50%;
+	float: left;
+}
+.ftrLeft p{
+	text-align: center;
+	line-height: 100px;
+}
+.ftrRight{
+	width: 50%;
+	float: right;
+}
+.ftrRight p{
+	text-align: center;
+	line-height: 100px;
+	
+}
