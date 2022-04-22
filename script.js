@@ -1,29 +1,14 @@
-let screen = document.getElementById("screen");
-buttons = document.querySelectorAll("button");
-let screenValue="";
-for(item of buttons)
-{
-    item.addEventListener("click" , (e)=>{
-        buttonText = e.target.innerText;
-        console.log("button text is " , buttonText);
-        if(buttonText=="X"){
-            buttonText ="*";
-            screenValue += buttonText;
-            screen.value = screenValue;
-        }
-        else if(buttonText=="C"){
-            screenValue = "";
-            screen.value = screenValue;
+let celsius = document.getElementById("celsius");
+let farheneit = document.getElementById("fahrenheit");
 
-        }
-        else if(buttonText=="="){
-            screen.value = eval(screenValue);
-        }
-        else{
-            screenValue += buttonText;
-            screen.value = screenValue;
-        }
+celsius.oninput = () => {
+    let output = (parseFloat(celsius.value)*9) / 5 + 32;
+    farheneit.value = parseFloat(output.toFixed(2));
 
+}
 
-    })
+farheneit.oninput = () => {
+    let output = ((parseFloat(farheneit.value) - 32) *5)/9 ;
+    celsius.value = parseFloat(output.toFixed(2));
+
 }
